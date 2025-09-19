@@ -1,0 +1,25 @@
+/* style.css */
+body { font-family: Arial, sans-serif; background:#f1f1f1; margin:0; padding:0;}
+#container { max-width:1000px; margin:20px auto; }
+#loginBox { background:#fff; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); text-align:center;}
+#loginBox input { padding:10px; width:70%; margin:8px 0;}
+#loginBox button { padding:10px 18px; }
+.muted { color:#a00; }
+
+#chatBox { background:#fff; padding:12px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08);}
+#topBar { display:flex; justify-content:space-between; align-items:center; padding:6px 12px; border-bottom:1px solid #eee; }
+#main { display:flex; gap:12px; padding:12px; }
+#left { flex:1; }
+#right { width:220px; }
+#messages { list-style:none; padding:10px; height:360px; overflow-y:auto; border:1px solid #eee; border-radius:6px; }
+#messages li { margin:8px 0; padding:8px 10px; border-radius:6px; max-width:80%; word-wrap:break-word; }
+.me { background:#dcf8c6; margin-left:auto; text-align:right;}
+.other { background:#f1f1f1; margin-right:auto; text-align:left;}
+.system { background:#fff7c2; text-align:center; font-style:italic; }
+
+#composer { display:flex; gap:8px; margin-top:10px; }
+#msgInput { flex:1; padding:10px; }
+#sendBtn { padding:10px 16px; }
+
+#usersList { margin-top:8px; border:1px solid #eee; padding:6px; border-radius:6px; max-height:300px; overflow-y:auto;}
+#usersList div { padding:6px 4px; border-bottom:1px solid #fafafa; }
