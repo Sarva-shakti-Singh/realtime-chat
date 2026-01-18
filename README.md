@@ -1,0 +1,1 @@
+A scalable, secure, and feature-rich real-time chat application built with modern web technologies. Supports instant messaging, typing indicators, online presence, and message delivery using WebSockets
